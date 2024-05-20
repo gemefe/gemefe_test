@@ -11,7 +11,7 @@ services:
     ports:
       - 3306:3306
     volumes:
-      # - ./sql_database_answers:/sql_database_answers
+      - ./sql_database_answers:/sql_database_answers
   adminer:
     image: adminer
     container_name: mysql-client

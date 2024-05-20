@@ -1,0 +1,6 @@
+Revisar procesos que usan el puerto:
+    netstat -ano | findstr :3306
+
+Detener proceso en la terminal:
+    Stop-Process -Id <PID>
+
